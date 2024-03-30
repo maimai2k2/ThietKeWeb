@@ -1,0 +1,57 @@
+body
+{
+    background-image: url("../../common/images/cavoi2.jpg");
+    height: 100vh;
+    color: #efefef;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+main {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+}
+main h1{
+    font-weight: normal;
+}
+main h1 {
+    text-align: center;
+    text-shadow: 0 0 5px #c3d168a2;
+}
+main div {
+    margin-top: 2rem;
+    text-align: center;
+}
+main div span{
+    font-size: 5rem;
+    line-height: 6rem;
+    text-shadow: 0 0 7px #c3d168a2;
+}
+
+main a
+{
+    text-decoration: none;
+    color: white;
+}
+
+main p {
+    margin-top: 3rem;
+    text-align: center;
+    text-shadow: 0 0 5px #c3d168a2;
+}
+main button {
+    padding: 0.55rem 1.2rem;
+    border: none;
+    outline: none;
+    appearance: none;
+    border-radius: 1rem;
+    background: rgb(17, 141, 44);
+    color: #fafafa;
+    box-shadow: 0 0 4px #e1f17859;
+}
+main button:hover {
+    cursor: pointer;
+}

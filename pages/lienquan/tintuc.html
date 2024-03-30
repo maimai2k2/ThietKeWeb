@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../home/home.html">
+    <link rel="stylesheet" href="../lienquan/lienquan.css">
+    <link rel="stylesheet" href="../lienquan/lienquan.html">
+    <link rel="stylesheet" href="../lienquan/tintuc.html">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">       
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link href="./css/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/11e5480463.js" crossorigin="anonymous"></script>
+    <title>Liên quân mobile</title>
+    <link rel="shortcut icon" href="../../common/images/tải xuống.jpg" type="image/x-icon">
+</head>
+<style>
+    .background
+{
+    height: 50px;
+    width: 100%;
+    margin: auto;
+}
+#text-1
+{
+    text-transform: uppercase;
+    color: green;
+}
+#text
+{
+    font-weight: bold;
+}
+#text-2
+{
+    color: blue;
+}
+#count
+{
+    float: left;
+}
+.square
+{
+    width:100px;
+    height: 100px;
+    border-radius: 10px;
+    background: rgb(240,156,193);    color: white;
+    float: left;
+    margin-left: 20px;
+}
+#days,#hours,#minutes,#seconds
+{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.text-3
+{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.end
+{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    display: none;
+}
+</style>
+<body>
+    <div class="main">
+        
+        <div class="menu sticky-top">
+            <ul>
+                <li> <div class="logonew sticky-top"><img src="../../common/images/logo.png"></div></li>
+                <li><a href="../home/home.html"><p>HOME</p></a></li>
+
+                <li class="lm"><a href="../TinTucLOL/LoL.html" ><p>LIÊN MINH HUYỀN THOẠI</p></a>
+                    <ul>
+                        <li><a href="../TinTucLOL/SeaGames.html" title="Sea Games"><p>TIN TỨC</p></a></li>
+                        <li><a href="../TinTucLOL/SuKien.html" title="Su kien"><p>SỰ KIỆN</p></a></li>
+                        <li><a href="../TinTucLOL/CamNang.html" title="Cẩm nang"><p>CẨM NANG</p></a></li>
+                    </ul>
+                </li>
+                <li class="lq"><a href="../lienquan/lienquan.html"><p>LIÊN QUÂN MOBILE</p></a>
+                    <ul>
+                        <li><a href="../lienquan/tintuc.html"><p>TIN TỨC</p></a></li>
+                        <li><a href="../lienquan/tuong.html"><p>TƯỚNG</p></a></li>
+                        <li><a href="../lienquan/giaidau.html"><p>GIẢI ĐẤU</p></a></li>
+                    </ul>
+                </li>
+                <li class="gs"><a href="../genshin/genshin.html"><p>GENSHIN IMPACT</p></a>
+                <ul>
+                    <li><a href="../genshin/newsgenshin.html"><p>TIN TỨC</p></a></li>
+                </ul>
+            </li>
+                <li class="pubg"><a href="../PUBG/Ga.html"><p>PUBG MOBILE</p></a>
+                <ul>
+                    <li><a href="../PUBG/Ga1.html"><p>TIN TỨC</p></a></li>
+                    <li><a href="../PUBG/Ga13.html"><p>MEDIA</p></a></li>
+                    <li><a href="../PUBG/Ga14.html"><p>CẨM NANG</p></a></li>
+                    <li><a href="../PUBG/Ga8.html"><p>ESPORTS</p></a></li>
+                </ul>
+                   
+            </li>
+                    
+            </ul>
+            <form class="d-flex" role="search" style="float:right; margin-right:10px; margin-left: 10px;">
+                <input style="width:300px ;"class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button type="submit">Search</button>
+                <a href="../formdangnhap/formSignUp.html" style = "color: rgb(255, 255, 255);" > <i class="fa-solid fa-user"style="font-size: 33px;float: right;margin-right:10px; margin-left:10px;"></i></a>
+                
+            </form>
+        
+    </div>
+  
+        <div id="header" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#header"data-slide-to="0" class="active"></li>
+                <li data-target="#header"data-slide-to="1" ></li>
+                <li data-target="#header"data-slide-to="2" ></li>
+                <li data-target="#header"data-slide-to="3" ></li>
+                <li data-target="#header"data-slide-to="4" ></li>
+
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../../common/images/carousel3.jpeg">
+                    <div class="carousel-caption">
+                        <h1 class="display-1" style="font-size: 122px;
+                        -webkit-text-stroke: 2px rgb(247, 245, 237);
+                        font-family: sans; color: yellow;
+                        font-weight: bold;
+                       background: -webkit-linear-gradient(rgb(243, 250, 18), rgb(237, 25, 25)); -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;">NHANH TAY</h1>
+                        <h4 style="color: gold; font-weight: bold;">TẢI GAME TRÊN</h4>
+                        <button type="button" class="btn btn-light btn-lg">
+                            <a href="https://play.google.com/store/apps/details?id=com.garena.game.kgvn&referrer=af_tranid%3DWSGv4AMAYYRNnSoyl2kqkQ%26pid%3DOrganicA%26c%3Dobt_lp_and"><i class="fab fa-google-play">GOOGLE PLAY</i></a>
+                        </button>
+                        <button type="button" class="btn btn-light btn-lg"><a href="https://apps.apple.com/VN/app/id1150288115?mt=8"><i class="fab fa-apple">APP STORE</i></a></button>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="../../common/images/carousel5.jpg">
+                </div>
+                <div class="carousel-item ">
+                    <img src="../../common/images/1920x864(42).jpg">
+                </div>
+                <div class="carousel-item ">
+                    <img src="../../common/images/carousel4.jpeg">
+                </div>
+                <div class="carousel-item ">
+                    <img src="../../common/images/carousel1.jpg">
+                </div>
+              
+            </div>
+
+        </div>
+        <section class="mainCont"style=" padding-left: 10px; padding-right:10px">
+            <br>
+            <hr style="height:2px; ">
+            <div class="background">
+                <div id="count">
+                    <h3 style=" background: -webkit-linear-gradient(rgb(243, 250, 18), rgb(237, 25, 25)); -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;">KHUYẾN MÃI SỐC</h3>
+                    <div id="count-1">
+                        <div class="square"> 
+                            <div id="days"> <h1> 0 </h1> </div>
+                            <div class="text-3"> ngày </div>
+                        </div>
+                        <div class="square"> 
+                            <div id="hours"> <h1> 0 </h1> </div>
+                            <div class="text-3"> giờ </div>
+                        </div>
+                        <div class="square"> 
+                            <div id="minutes"> <h1> 0 </h1> </div>
+                            <div class="text-3"> phút </div>
+                        </div>
+                        <div class="square"> 
+                            <div id="seconds"> <h1> 0 </h1> </div>
+                            <div class="text-3"> giây </div>
+                        </div>
+                    </div>
+                    <div class="end">
+                        <p style="color:red"> Chương trình sale đã kết thúc </p>
+                    </div>
+                </div>
+            </div>
+            <br><br><br><br><br>
+            <br>
+            <h3><span style="color:#26ee44"><strong>MỞ BÁN CELICA ĐẾM CỪU</strong></span></h3>
+                <div class="fb-like fb_iframe_widget" data-href="https://lienquan.garena.vn/tin-tuc/mo-ban-trang-phuc-celica-dem-cuu" data-layout="button" data-action="like" data-size="large" data-show-faces="true" data-share="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=&amp;container_width=719&amp;href=https%3A%2F%2Flienquan.garena.vn%2Ftin-tuc%2Fmo-ban-trang-phuc-celica-dem-cuu&amp;layout=button&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=true&amp;size=large"><span style="vertical-align: bottom; width: 138px; height: 28px;"><iframe name="f155e1699e1948" width="1000px" height="1000px" data-testid="fb:like Facebook Social Plugin" title="fb:like Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.6/plugins/like.php?action=like&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df39d271a902ce6c%26domain%3Dlienquan.garena.vn%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Flienquan.garena.vn%252Ff29a918668f8d3c%26relation%3Dparent.parent&amp;container_width=719&amp;href=https%3A%2F%2Flienquan.garena.vn%2Ftin-tuc%2Fmo-ban-trang-phuc-celica-dem-cuu&amp;layout=button&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=true&amp;size=large" style="border: none; visibility: visible; width: 138px; height: 28px;" class=""></iframe></span></div>
+                        <div class="cont-post">
+                <p>Xin chào các Kiện Tướng</p>
+                
+                <p>Trang phục Celica Đếm Cừu đã chính thức ra mắt, Hội Đồng xin gửi tới các bạn ưu đãi đặc biệt: <strong><span style="color:#00FF00">Mở bán trang phục Celica Đếm Cừu</span></strong></p>
+                
+                <p> </p>
+                
+                <h3><span style="color:#FF8C00"><strong>NỘI DUNG VÀ THỜI GIAN</strong></span></h3>
+                
+                <p> </p>
+                
+                <p> </p>
+                
+                <a href="../../lienquan/tintuc1.html"><img alt="" src="../../common/images/M-CỪU-1280.jpg" style="height:100%; width:100%"></a>
+                
+                <p>Cụ thể, từ ngày<strong> <span style="color:#00FF00">28/5 - 14/06/2022</span>: </strong></p>
+                
+                <p>Trang phục Celica Đếm Cừu sẽ có giá<strong> <span style="color:#00FF00">99 quân huy</span></strong> thay vì <span style="color:#FF0000"><s><strong>299 quân huy.</strong></s></span></p>
+                
+                <p>Combo<strong> t</strong>rang phục Celica Đếm Cừu và phụ kiện sẽ có giá<strong> <span style="color:#00FF00">129 quân huy.</span></strong></p>
+                
+               <p>Sau thời gian ưu đãi trang phục sẽ trở lại với giá bán gốc. Còn chờ gì nữa, vợt ưu đãi ngay nào các Kiện Tướng!</p>
+               </div>
+               <br>
+            <hr style="height:2px; ">
+            <h3><span style="color:#26ee44"><strong>MỞ BÁN TRANG PHỤC VIOLET</strong></span></h3>
+                <div class="fb-like fb_iframe_widget" data-href="https://lienquan.garena.vn/tin-tuc/mo-ban-trang-phuc-celica-dem-cuu" data-layout="button" data-action="like" data-size="large" data-show-faces="true" data-share="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=&amp;container_width=719&amp;href=https%3A%2F%2Flienquan.garena.vn%2Ftin-tuc%2Fmo-ban-trang-phuc-celica-dem-cuu&amp;layout=button&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=true&amp;size=large"><span style="vertical-align: bottom; width: 138px; height: 28px;">
+                <iframe name="f155e1699e1948" width="1000px" height="1000px" data-testid="fb:like Facebook Social Plugin" title="fb:like Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.6/plugins/like.php?action=like&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df39d271a902ce6c%26domain%3Dlienquan.garena.vn%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Flienquan.garena.vn%252Ff29a918668f8d3c%26relation%3Dparent.parent&amp;container_width=719&amp;href=https%3A%2F%2Flienquan.garena.vn%2Ftin-tuc%2Fmo-ban-trang-phuc-celica-dem-cuu&amp;layout=button&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=true&amp;size=large" style="border: none; visibility: visible; width: 138px; height: 28px;" class=""></iframe></span></div>
+                        <div class="cont-post">
+                <p>Xin chào các Kiện Tướng</p>
+                
+                <p>Trang phục Violet đã chính thức ra mắt, Hội Đồng xin gửi tới các bạn ưu đãi đặc biệt: <strong><span style="color:#00FF00">Mở bán trang phục violet</span></strong></p>
+                
+                <p> </p>
+                
+                <h3><span style="color:#FF8C00"><strong>NỘI DUNG VÀ THỜI GIAN</strong></span></h3>
+                
+                <p> </p>
+                
+                <p> </p>
+                
+                <p><img alt="" src="../../common/images/violet.jpg" style="height:100%; width:100%"></p>
+                
+                <p>Cụ thể, từ ngày<strong> <span style="color:#00FF00">28/5 - 14/06/2022</span>: </strong></p>
+                
+                <p>Trang phục Violet sẽ có giá<strong> <span style="color:#00FF00">499 quân huy</span></strong> thay vì <span style="color:#FF0000"><s><strong>999 quân huy.</strong></s></span></p>
+                
+                <p>Combo<strong> t</strong>rang phục Violet và phụ kiện sẽ có giá<strong> <span style="color:#00FF00">529 quân huy.</span></strong></p>
+                
+                <p>Sau thời gian ưu đãi trang phục sẽ trở lại với giá bán gốc. Còn chờ gì nữa, vợt ưu đãi ngay nào các Kiện Tướng!</p>
+        </div>
+        <br>
+        <hr style="height:2px; ">
+        <h3><span style="color:#26ee44"><strong>MỞ BÁN TRANG PHỤC VIOLET</strong></span></h3>
+            <div class="fb-like fb_iframe_widget" data-href="https://lienquan.garena.vn/tin-tuc/mo-ban-trang-phuc-celica-dem-cuu" data-layout="button" data-action="like" data-size="large" data-show-faces="true" data-share="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=&amp;container_width=719&amp;href=https%3A%2F%2Flienquan.garena.vn%2Ftin-tuc%2Fmo-ban-trang-phuc-celica-dem-cuu&amp;layout=button&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=true&amp;size=large"><span style="vertical-align: bottom; width: 138px; height: 28px;">
+            <iframe name="f155e1699e1948" width="1000px" height="1000px" data-testid="fb:like Facebook Social Plugin" title="fb:like Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.6/plugins/like.php?action=like&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df39d271a902ce6c%26domain%3Dlienquan.garena.vn%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Flienquan.garena.vn%252Ff29a918668f8d3c%26relation%3Dparent.parent&amp;container_width=719&amp;href=https%3A%2F%2Flienquan.garena.vn%2Ftin-tuc%2Fmo-ban-trang-phuc-celica-dem-cuu&amp;layout=button&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=true&amp;size=large" style="border: none; visibility: visible; width: 138px; height: 28px;" class=""></iframe></span></div>
+                    <div class="cont-post">
+            <p>Xin chào các Kiện Tướng</p>
+            
+            <p>Trang phục Violet đã chính thức ra mắt, Hội Đồng xin gửi tới các bạn ưu đãi đặc biệt: <strong><span style="color:#00FF00">Mở bán trang phục violet</span></strong></p>
+            
+            <p> </p>
+            
+            <h3><span style="color:#FF8C00"><strong>NỘI DUNG VÀ THỜI GIAN</strong></span></h3>
+            
+            <p> </p>
+            
+            <p> </p>
+            
+            <p><img alt="" src="../../common/images/https-lh6-googleusercontent-com-xbdpvym6comwfwra.jpeg" style="height:100%; width:100%"></p>
+            
+            <p>Cụ thể, từ ngày<strong> <span style="color:#00FF00">28/5 - 14/06/2022</span>: </strong></p>
+            
+            <p>Trang phục Violet sẽ có giá<strong> <span style="color:#00FF00">499 quân huy</span></strong> thay vì <span style="color:#FF0000"><s><strong>999 quân huy.</strong></s></span></p>
+            
+            <p>Combo<strong> t</strong>rang phục Violet và phụ kiện sẽ có giá<strong> <span style="color:#00FF00">529 quân huy.</span></strong></p>
+            
+            <p>Sau thời gian ưu đãi trang phục sẽ trở lại với giá bán gốc. Còn chờ gì nữa, vợt ưu đãi ngay nào các Kiện Tướng!</p>
+    </div>
+    <br>
+                <nav aria-label="Page navigation example" style="margin-left:45% ;">
+                    <ul class="pagination">
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                          <span aria-hidden="true">&laquo;</span>
+                        </a>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                          <span aria-hidden="true">&raquo;</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                  <br>
+    </section>
+    <div class="footer ">
+        
+        <hr style="height:2px; margin-top:10px">
+        <img src="../../common/images/logo-footer.png">
+        <hr style="height: 1px; margin-left:100px; margin-right: 100px;">
+        <h3>CÔNG TY CỔ PHẦN GIẢI TRÍ VÀ THỂ THAO ĐIỆN TỬ VIỆT NAM</h3>
+        <div class="nutquaylai-sticky-bottom"> <a href="#"> <i class="fa-solid fa-arrow-up" style=" float:right;color: pink; font-size: 30px;padding-right:50px;padding-top:10px"></i> </a></div>
+
+        <p>Giấy CNĐKKD số 0105301438, cấp lần đầu ngày 10/05/2011</p>
+        <p>Cơ quan cấp: Phòng Đăng ký kinh doanh- Sở Kế hoạch và đầu tư TP Hà Nội</p>
+        <p>Thành phố Hà Nội, Việt Nam.</p>
+        <p>Điện thoại: 024 73053939</p>
+        <ul class="simple-menu" id="footer-nav">
+            <a target="_blank" href="https://www.garena.vn/terms" title="">Điều khoản dịch vụ |</a>
+             
+            <a target="_blank" href="https://www.garena.vn/privacy" title="">Chính sách bảo mật |</a>
+             
+            <a target="_blank" href="https://lienquan.garena.vn/tin-tuc/chinh-sach-giai-quyet-tranh-chap" title="">Chính sách giải quyết tranh chấp </a>
+            <br>
+        </ul>
+        </div>
+    </div>
+</body>
+<script>
+    var fullTime = new Date("June 14 2022 18:03:00").getTime();
+setInterval(function()
+{
+    var now = new Date().getTime();
+    var Duration = fullTime - now;
+    var days = Math.floor(Duration/(1000 * 60 * 60*24));
+    var hours = Math.floor(Duration/(1000*60*60));
+    var minutes = Math.floor(Duration/(1000*60));
+    var seconds = Math.floor(Duration/(1000));
+
+    hours %= 24;
+    minutes %= 60;
+    seconds %= 60;
+
+    document.getElementById("days").innerHTML = days;
+    document.getElementById("hours").innerHTML = hours;
+    document.getElementById("minutes").innerHTML = minutes;
+    document.getElementById("seconds").innerHTML = seconds;
+
+    if(Duration <= 0)
+    {
+        document.getElementById("days").innerHTML = 0;
+        document.getElementById("hours").innerHTML = 0;
+        document.getElementById("minutes").innerHTML = 0;
+        document.getElementById("seconds").innerHTML = 0;
+
+        const end = document.querySelector(".end");
+        end.style.display = "block";
+    }
+});
+</script>
+</html>

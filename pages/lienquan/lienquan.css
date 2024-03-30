@@ -1,0 +1,370 @@
+.menu
+{
+	width:100%;
+	float:right;
+	height: 70px;
+	background-color: rgba(17,17,17,0.75);
+}
+.menu ul
+{
+	list-style:none;
+
+}
+.menu ul li
+{
+	float:left;
+	position:relative;
+}
+.menu ul li a
+{
+	text-decoration:none;
+	line-height:50px;
+	display:block;
+	padding: 10px 20px;
+	margin: 0 1px;
+	font-size:20px;
+	clear:both;
+    color: #fff;
+	font-size: 14px;
+    margin: 0 15px !important;
+}
+.menu ul li a:hover
+{
+	text-shadow: 0 0 10px #69e0ff, 0 0 20px #69e0ff, 0 0 40px #69e0ff;
+    color: #fff;
+}
+.lm ul
+{
+	position:absolute; top:85px; left: -40px;
+}
+.lq ul li
+{
+	clear:both;
+    width: 210px;
+}
+.lm ul li
+{
+	clear:both;
+    width: 240px;
+}
+
+.gs ul li
+{
+	clear:both;
+    width: 200px;
+}
+.pubg ul li
+{
+	clear:both;
+    width: 180px;
+}
+
+.menu ul ul
+{
+	position:absolute; top:70px; left: -40px;
+}
+
+.menu ul ul li a
+{
+	padding:10px;
+	background-color: rgba(17,17,17,0.75);
+	line-height:40px;
+}
+.menu ul ul
+{
+	visibility:hidden;
+}
+.menu ul li:hover > ul
+{
+    clear: both;
+	visibility:visible;
+}
+.logonew img
+{
+	margin-top: -5px;;
+	float:left;
+	width:90px;
+	height: 60px;
+    clear: both;
+}
+#loadingPage{
+	background-image:linear-gradient(-45deg, #222222 50%, #000000 50%, #000000);
+	opacity:0.8;
+	filter: alpha(opacity=80);
+	-ms-filter: "alpha(opacity=80)";
+	-moz-opacity:0.8;
+	-khtml-opacity: 0.8;
+	position: fixed;
+	top:0px;
+	z-index: 99;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
+#loadingPagebox{
+	margin: 0px auto 0px auto;
+	text-align: center;
+}
+
+#loadingRead {
+	font-size:20px;
+	font-size:2.0rem;
+	color: #fff;
+	z-index: 99;
+}
+#loadingRead span{
+	padding: 6px 6px;
+	animation: loading 0.85s ease-in-out infinite alternate;
+	-webkit-animation: loading 0.85s ease-in-out infinite alternate;
+	display: inline-block;
+}
+
+form {
+	position: relative;
+	width: 400px;
+	max-width: 100%;
+}
+
+form button {
+	position: absolute;
+	background-color: rgba(140,140,140);
+	border: 0;
+	border-radius: 5px;
+	left: 200px;
+	color: #fff;
+	font-size: 14px;
+	padding: 9px 30px;
+}
+
+.container-fluid img:hover
+{
+	font-weight:bold;
+	zoom: 1.05;
+}
+.menu ul li:hover > ul
+{
+    clear: both;
+	visibility:visible;
+}
+.logonew img
+{
+	float:left;
+	width:150px;
+	height: 100px;
+    clear: both;
+}
+.mainCont
+{
+	background-color: black;
+}
+video
+{
+	top:850px;
+	left:0px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: auto;
+    z-index: -1000;
+   
+}
+.hinh img:hover
+{
+	zoom: 1.05;
+}
+#header
+{
+	clear: both;
+	width:100%;
+}
+#header img
+{
+	width:100%;
+	height: 800px;
+}
+hr
+{
+	margin-top: -10px;
+    height: 2px;
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(233,227,19,1) 46%, rgba(46,53,55,1) 100%);
+}
+.mid
+{
+	min-height: 70px;
+	padding-top: 20px;
+	background-color: rgba(0, 0, 0, 0.589);
+	clear: both;
+	width: 100%;
+	text-align: center;
+	font-weight:bold;
+	color:gold; 
+}
+.near-footer
+{
+	background-image:url(../../common/images/tuong.png);
+	min-height: 400px;
+	background-color:black ;
+
+}
+
+.container-fluid 
+{
+	clear: both;
+	width: 100%;
+}
+p
+{
+	color: #FFF;
+}
+.anh 
+{
+	text-align: center;
+	padding-top: 5px;;
+	color:gold;
+	top:0;
+}
+.footer 
+{
+	width: 100%;
+	height: 400px;
+	margin-top: -20px;
+	clear:both;
+	text-align: center;
+	background-color: black;
+}
+.main
+{
+	position: absolute;
+	margin:auto;
+	width:100%;
+	color:#FFF;
+}
+@media (max-width: 992px){
+	.main
+	{
+		width:100%;
+	}
+	.menu
+	{
+		clear: both;
+		margin: 0;
+		left: 0;
+		width: 100%;
+		float: left;
+		background-color: black;
+	}
+	.menu ul li
+	{
+		float: left;
+		height: 70px;
+		width:200px;
+		background-color: black;
+		clear: both;
+	}
+	.menu ul ul li
+	{
+		float:right;
+	}
+	.menu ul ul
+	{
+		clear: both;
+		position:absolute;top:0; left: 160px;
+		background-color: none;
+		height: 70px;
+	}
+	form {
+		position: relative;
+		width: 400px;
+		float:right;
+		margin-right:50px;
+		margin-top: -340px;
+		max-width: 100%;
+	}
+	form button {
+		position: absolute;
+		background-color: rgba(140,140,140);
+		border: 0;
+		border-radius: 5px;
+		left: 200px;
+		color: #fff;
+		font-size: 14px;
+		padding: 9px 30px;
+	}
+
+	.d-flex i
+	{
+		margin-left:-500px;
+	}
+	.carousel-caption {
+		top: 20%;
+	}
+	.carousel-caption h1{
+		font-size: 250%;
+	}
+	.carousel-caption h3{		
+		font-size: 160%;		
+	}
+	.carousel-caption .btn{		
+		font-size: 120%;		
+	}
+}
+@media (max-width: 768px){	
+	.main
+	{
+		width:768px;
+	}
+	.menu ul li
+	{
+		width:768px;
+		background-color: rgba(17,17,17,0.75);
+	}
+	.menu ul ul li
+	{
+		float:right;
+		width:200px;
+	}
+	.carousel-caption {
+		top: 20%;
+	}
+	.carousel-caption h1{
+		font-size: 220%;
+	}
+	.carousel-caption h3{		
+		font-size: 140%;
+		padding-bottom: 0.2rem;
+	}
+	.carousel-caption .btn{		
+		font-size: 95%;
+		padding: 8px 14px;
+	}
+}
+@media (max-width: 576px){
+	.main
+	{
+		width:576px;
+	}
+	.menu ul li
+	{
+		width:576px;
+		background-color: rgba(17,17,17,0.75);
+	}
+	.menu ul ul li
+	{
+		float:right;
+		width:200px;
+	}
+	.carousel-caption {
+		top: 10%;
+	}
+	.carousel-caption h1{
+		font-size: 150%;
+	}
+	.carousel-caption h3{		
+		font-size: 110%;		
+	}
+	.carousel-caption .btn {		
+		font-size: 90%;
+		padding: 4px 8px;
+	}	
+}
